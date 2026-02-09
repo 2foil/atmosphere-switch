@@ -16,8 +16,9 @@
 * 下载[hekate](https://github.com/CTCaer/hekate)最新版
 * 把 hekate_ctcaer_xxxx_Nyx_xxx.zip解压到sd卡
 * 留意这里的hekate_ctcaer_xxx.bin，下面会用到
-* ~~把RCM注入器插入电脑，会识别为U盘~~
-* 打开SDCard根目录，把刚才的hekate_ctcaer_xxx.bin复制为payload.bin
+* 把RCM注入器插入电脑，会识别为U盘
+* (Atomosphere) 打开\ATMOSPHERE_HEKATE，把刚才的hekate_ctcaer_xxx.bin复制为payload.bin，然后拔掉
+* (SXOS) 打开SDCard根目录，把刚才的hekate_ctcaer_xxx.bin复制为payload.bin
 * 把刚才的fusee.bin拷贝到switch的sd卡，放到bootloader\payloads目录
 * ~~把[hekate_ipl.ini](./hekate_ipl.ini)拷贝到sd/bootloader/目录~~
 * 下载[sys-patch](https://github.com/impeeza/sys-patch)
