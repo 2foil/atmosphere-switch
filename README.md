@@ -1,12 +1,15 @@
 # atmosphere-switch
 大气层switch使用指南
 
-# 准备
+## Switch固件下载
+[switch-firmwares](https://darthsternie.net/switch-firmwares/)
+
+## 准备
 * 可以软破的switch
 * RCM注入器v5，某宝上有售
 * sd卡，格式化为fat32
 
-# 准备SD卡
+## 准备SD卡
 * 下载[大气层](https://github.com/Atmosphere-NX/Atmosphere)最新版
 * 把atmosphere-xxxxxx-master-xxxxxxxx+hbl-xxx+hbmenu-xxx.zip解压到sd卡
 * 下载fusee.bin，下面会用到
@@ -23,7 +26,7 @@
 * （可选）下载叠加层加载工具[nx-ovlloader](https://github.com/WerWolv/nx-ovlloader)，下载解压到sd卡。下载叠加层[Tesla-Menu](https://github.com/WerWolv/Tesla-Menu)
 * （可选）下载存档修改工具[EdiZon](https://github.com/WerWolv/EdiZon)的Edizon.nro，放入switch目录下。下载ovlEdiZon.ovl放到switch\.overlays目录
 
-# 启动
+## 启动
 * 按住开关10秒，把switch强行关机
 * 插入短接器，同时按音量+、电源键，然后放开
 * 长按RCM注入器的加号，直到闪烁蓝灯，说明是大气层模式。不是则放开，再长按切换
@@ -31,7 +34,7 @@
 * switch启动到boot界面
 * 启动：Payloads -> fusee.bin
 
-# 安装游戏
+## 安装游戏
 * 按住R，打开任意一个游戏，出现app界面，选择Awoo，或者直接从相册进入打开[Awoo-Installer](https://github.com/Huntereb/Awoo-Installer)
 * 进入后，选择usb安装
 * 在电脑上下载[ns-usbloader](https://github.com/developersu/ns-usbloader)，拖入游戏，点击上传
