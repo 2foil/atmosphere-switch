@@ -16,9 +16,8 @@
 * 把RCM注入器插入电脑，会识别为U盘
 * 打开\ATMOSPHERE_HEKATE，把刚才的hekate_ctcaer_xxx.bin复制为payload.bin，然后拔掉
 * 把刚才的fusee.bin拷贝到switch的sd卡，放到bootloader\payloads目录
-* 把[hekate_ipl.ini](./hekate_ipl.ini)拷贝到sd/bootloader/目录
-* 下载[patches](https://gbatemp.net/threads/sigpatches-for-atmosphere-hekate-fss0-fusee-package3.571543/)最新版
-* 把sigpatches.zip解压到switch的sd卡
+* ~~把[hekate_ipl.ini](./hekate_ipl.ini)拷贝到sd/bootloader/目录~~
+* 下载[sys-patch](https://github.com/impeeza/sys-patch)
 * （推荐）下载安装工具[Awoo-Installer](https://github.com/Huntereb/Awoo-Installer)，下载解压到sd卡
 * （可选）下载安装工具[DBI](https://github.com/rashevskyv/dbi)的dbi.nro、dbi.config，放入switch/DBI/目录
 * （可选）下载叠加层加载工具[nx-ovlloader](https://github.com/WerWolv/nx-ovlloader)，下载解压到sd卡。下载叠加层[Tesla-Menu](https://github.com/WerWolv/Tesla-Menu)
@@ -30,8 +29,7 @@
 * 长按RCM注入器的加号，直到闪烁蓝灯，说明是大气层模式。不是则放开，再长按切换
 * RCM注入器插入到switch
 * switch启动到boot界面
-* （可选）在hekate里备份原始系统，sd卡分区，建立虚拟系统
-* 启动虚拟系统
+* 启动：Payloads -> fusee.bin
 
 # 安装游戏
 * 按住R，打开任意一个游戏，出现app界面，选择Awoo，或者直接从相册进入打开[Awoo-Installer](https://github.com/Huntereb/Awoo-Installer)
